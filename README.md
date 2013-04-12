@@ -1,18 +1,19 @@
 ## Usage
 
+````javascript
     var kit = require('typekit');
 
     kit.create(token, {
       name: 'Example',
-      families: ['droidsans:n4'],
+      families: [{id: 'gkmg'}],
       domains: ['localhost']
-    }, function (err, id) {
-      kit.update(token, id, {
-        families: ['droidsans:n4', 'droidsans:n7']
+    }, function (err, data) {
+      kit.update(token, data.id, {
+        families: ['gkmg', 'gkda']
       }, function (err) {
-        kit.publish(token, id, function (err) {
+        kit.publish(token, data.id, function (err) {
           console.log('All done!');
         });
       });
     });
-
+````
