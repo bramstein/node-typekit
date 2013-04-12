@@ -1,0 +1,17 @@
+{
+  "name": "typekit",
+  "version": "0.1.0",
+  "description": "A Node.js binding for the Typekit API.",
+  "main": "lib/index.js",
+  "keywords": [
+    "typekit",
+    "webfonts",
+    "api"
+  ],
+  "author": "Bram Stein (b.l.stein@gmail.com) <http://www.bramstein.com>",
+  "license": "BSD",
+  "dependencies": {
+    "url-template": "=1.1.0",
+    "request": "=2.16.6"
+  }
+}
