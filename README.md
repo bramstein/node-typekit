@@ -17,10 +17,10 @@ and then include it in your code:
       families: [{id: 'gkmg'}],
       domains: ['localhost']
     }, function (err, data) {
-      kit.update(token, data.id, {
+      kit.update(token, data.kit.id, {
         families: ['gkmg', 'gkda']
       }, function (err) {
-        kit.publish(token, data.id, function (err) {
+        kit.publish(token, data.kit.id, function (err) {
           console.log('All done!');
         });
       });
