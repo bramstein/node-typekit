@@ -11,7 +11,7 @@
   "author": "Bram Stein <b.l.stein@gmail.com> (http://www.bramstein.com)",
   "license": "BSD",
   "dependencies": {
-    "url-template": "=1.1.0",
-    "request": "=2.16.6"
+    "url-template": "^2.0.8",
+    "request": "^2.88.2"
   }
 }
